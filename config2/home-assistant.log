@@ -1,0 +1,164 @@
+2023-02-18 19:41:09.381 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration smartthinq_sensors which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-02-18 19:41:09.382 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration ble_monitor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-02-18 19:41:09.382 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-02-18 19:41:11.069 WARNING (MainThread) [homeassistant.components.ssdp] Could not set up UPnP/SSDP server, as a presentation URL could not be determined; Please configure your internal URL in the Home Assistant general configuration
+2023-02-18 19:41:18.752 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:41:18.762 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Home' for ipma integration not ready yet: Could not get location for (41.5620813540027,-8.386088171973826); Retrying in background
+2023-02-18 19:41:34.520 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:41:44.775 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:42:04.850 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:42:44.924 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:44:05.111 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:45:10.354 WARNING (Recorder) [homeassistant.components.sensor.recorder] The unit of sensor.home_precipitation (mm/h) can not be converted to the unit of previously compiled statistics (mm). Generation of long term statistics will be suppressed unless the unit changes back to mm or a compatible unit. Go to https://my.home-assistant.io/redirect/developer_statistics to fix this
+2023-02-18 19:45:25.395 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:46:45.668 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:48:05.943 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:49:26.346 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:50:46.820 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:52:07.124 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:53:27.270 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:54:42.223 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-485519024570 data: Error fetching data: DeviceConnectionError()
+2023-02-18 19:54:47.546 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:56:08.022 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:57:28.327 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 19:58:48.558 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 20:00:09.015 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 20:01:29.252 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 20:06:25.224 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-485519024570 data: Error fetching data: DeviceConnectionError()
+2023-02-18 20:12:38.225 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-485519024570 data: Error fetching data: DeviceConnectionError()
+2023-02-18 20:15:36.073 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-4C75253369CE data: Error fetching data: DeviceConnectionError()
+2023-02-18 20:28:45.224 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-485519024570 data: Error fetching data: DeviceConnectionError()
+2023-02-18 20:49:09.404 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-C8C9A367DEA5 data: Error fetching data: DeviceConnectionError()
+2023-02-18 21:02:28.224 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-485519024570 data: Error fetching data: DeviceConnectionError()
+2023-02-18 21:02:50.484 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.488 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Braga (CIM)(6212124): 'NoneType' object is not iterable
+2023-02-18 21:02:50.491 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.493 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Braga, Merelim(1210622): 'NoneType' object is not iterable
+2023-02-18 21:02:50.495 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.497 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Vila Verde (CIM)(6212123): 'NoneType' object is not iterable
+2023-02-18 21:02:50.499 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.500 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Amares Caldelas (CIM)(6212122): 'NoneType' object is not iterable
+2023-02-18 21:02:50.501 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.503 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Terras de Bouro/Barral (CIM)(6212121): 'NoneType' object is not iterable
+2023-02-18 21:02:50.506 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.507 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Barcelos (CIM)(6212125): 'NoneType' object is not iterable
+2023-02-18 21:02:50.510 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.511 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Vila Nova Famalicão (CIM)(6212410): 'NoneType' object is not iterable
+2023-02-18 21:02:50.513 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.514 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Ponte de Lima(1210615): 'NoneType' object is not iterable
+2023-02-18 21:02:50.515 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.516 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Paços Ferreira(1210643): 'NoneType' object is not iterable
+2023-02-18 21:02:50.519 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.520 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Esposende (CIM)(6212126): 'NoneType' object is not iterable
+2023-02-18 21:02:50.522 ERROR (MainThread) [pyipma.location] Could not retrieve a valid observation for Braga
+2023-02-18 21:02:50.526 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.527 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Braga(1030300): 'NoneType' object is not iterable
+2023-02-18 21:02:50.530 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.531 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Barcelos(1030200): 'NoneType' object is not iterable
+2023-02-18 21:02:50.534 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.535 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Póvoa de Lanhoso(1030900): 'NoneType' object is not iterable
+2023-02-18 21:02:50.538 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.539 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vila Verde(1031300): 'NoneType' object is not iterable
+2023-02-18 21:02:50.541 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.542 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Guimarães(1030800): 'NoneType' object is not iterable
+2023-02-18 21:02:50.545 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.548 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Terras de Bouro(1031000): 'NoneType' object is not iterable
+2023-02-18 21:02:50.551 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.552 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Amares(1030100): 'NoneType' object is not iterable
+2023-02-18 21:02:50.557 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.558 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vila Nova de Famalicão(1031200): 'NoneType' object is not iterable
+2023-02-18 21:02:50.561 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.562 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vizela(1031400): 'NoneType' object is not iterable
+2023-02-18 21:02:50.564 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:02:50.564 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Fafe(1030700): 'NoneType' object is not iterable
+2023-02-18 21:02:50.565 WARNING (MainThread) [homeassistant.components.ipma.weather] Could not update weather observation
+2023-02-18 21:02:50.566 WARNING (MainThread) [homeassistant.components.ipma.weather] Could not update weather forecast
+2023-02-18 21:32:50.573 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.574 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Braga (CIM)(6212124): 'NoneType' object is not iterable
+2023-02-18 21:32:50.577 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.578 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Braga, Merelim(1210622): 'NoneType' object is not iterable
+2023-02-18 21:32:50.580 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.580 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Vila Verde (CIM)(6212123): 'NoneType' object is not iterable
+2023-02-18 21:32:50.583 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.584 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Amares Caldelas (CIM)(6212122): 'NoneType' object is not iterable
+2023-02-18 21:32:50.587 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.589 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Terras de Bouro/Barral (CIM)(6212121): 'NoneType' object is not iterable
+2023-02-18 21:32:50.591 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.592 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Barcelos (CIM)(6212125): 'NoneType' object is not iterable
+2023-02-18 21:32:50.595 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.596 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Vila Nova Famalicão (CIM)(6212410): 'NoneType' object is not iterable
+2023-02-18 21:32:50.598 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.600 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Ponte de Lima(1210615): 'NoneType' object is not iterable
+2023-02-18 21:32:50.602 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.604 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Paços Ferreira(1210643): 'NoneType' object is not iterable
+2023-02-18 21:32:50.606 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.607 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Esposende (CIM)(6212126): 'NoneType' object is not iterable
+2023-02-18 21:32:50.608 ERROR (MainThread) [pyipma.location] Could not retrieve a valid observation for Braga
+2023-02-18 21:32:50.610 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.611 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Braga(1030300): 'NoneType' object is not iterable
+2023-02-18 21:32:50.613 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.614 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Barcelos(1030200): 'NoneType' object is not iterable
+2023-02-18 21:32:50.617 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.619 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Póvoa de Lanhoso(1030900): 'NoneType' object is not iterable
+2023-02-18 21:32:50.621 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.622 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vila Verde(1031300): 'NoneType' object is not iterable
+2023-02-18 21:32:50.625 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.626 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Guimarães(1030800): 'NoneType' object is not iterable
+2023-02-18 21:32:50.628 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.628 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Terras de Bouro(1031000): 'NoneType' object is not iterable
+2023-02-18 21:32:50.633 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.635 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Amares(1030100): 'NoneType' object is not iterable
+2023-02-18 21:32:50.644 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.645 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vila Nova de Famalicão(1031200): 'NoneType' object is not iterable
+2023-02-18 21:32:50.653 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.654 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vizela(1031400): 'NoneType' object is not iterable
+2023-02-18 21:32:50.656 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 21:32:50.657 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Fafe(1030700): 'NoneType' object is not iterable
+2023-02-18 21:32:50.658 WARNING (MainThread) [homeassistant.components.ipma.weather] Could not update weather observation
+2023-02-18 21:32:50.659 WARNING (MainThread) [homeassistant.components.ipma.weather] Could not update weather forecast
+2023-02-18 21:43:53.225 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-485519024570 data: Error fetching data: DeviceConnectionError()
+2023-02-18 22:02:50.698 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.699 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Braga (CIM)(6212124): 'NoneType' object is not iterable
+2023-02-18 22:02:50.702 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.703 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Braga, Merelim(1210622): 'NoneType' object is not iterable
+2023-02-18 22:02:50.706 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.708 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Vila Verde (CIM)(6212123): 'NoneType' object is not iterable
+2023-02-18 22:02:50.710 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.711 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Amares Caldelas (CIM)(6212122): 'NoneType' object is not iterable
+2023-02-18 22:02:50.713 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.714 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Terras de Bouro/Barral (CIM)(6212121): 'NoneType' object is not iterable
+2023-02-18 22:02:50.718 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.719 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Barcelos (CIM)(6212125): 'NoneType' object is not iterable
+2023-02-18 22:02:50.722 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.724 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Vila Nova Famalicão (CIM)(6212410): 'NoneType' object is not iterable
+2023-02-18 22:02:50.728 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.730 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Ponte de Lima(1210615): 'NoneType' object is not iterable
+2023-02-18 22:02:50.734 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.736 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Paços Ferreira(1210643): 'NoneType' object is not iterable
+2023-02-18 22:02:50.740 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:443 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.741 WARNING (MainThread) [pyipma.location] Could not retrieve obsertation for Esposende (CIM)(6212126): 'NoneType' object is not iterable
+2023-02-18 22:02:50.743 ERROR (MainThread) [pyipma.location] Could not retrieve a valid observation for Braga
+2023-02-18 22:02:50.746 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.748 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Braga(1030300): 'NoneType' object is not iterable
+2023-02-18 22:02:50.751 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.752 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Barcelos(1030200): 'NoneType' object is not iterable
+2023-02-18 22:02:50.754 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.755 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Póvoa de Lanhoso(1030900): 'NoneType' object is not iterable
+2023-02-18 22:02:50.758 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.759 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vila Verde(1031300): 'NoneType' object is not iterable
+2023-02-18 22:02:50.761 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.761 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Guimarães(1030800): 'NoneType' object is not iterable
+2023-02-18 22:02:50.766 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.767 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Terras de Bouro(1031000): 'NoneType' object is not iterable
+2023-02-18 22:02:50.771 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.773 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Amares(1030100): 'NoneType' object is not iterable
+2023-02-18 22:02:50.775 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.776 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vila Nova de Famalicão(1031200): 'NoneType' object is not iterable
+2023-02-18 22:02:50.779 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.780 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Vizela(1031400): 'NoneType' object is not iterable
+2023-02-18 22:02:50.782 ERROR (MainThread) [pyipma.api] Cannot connect to host api.ipma.pt:80 ssl:default [Name does not resolve]
+2023-02-18 22:02:50.783 WARNING (MainThread) [pyipma.location] Could not retrieve forecast for Fafe(1030700): 'NoneType' object is not iterable
+2023-02-18 22:02:50.784 WARNING (MainThread) [homeassistant.components.ipma.weather] Could not update weather observation
+2023-02-18 22:02:50.785 WARNING (MainThread) [homeassistant.components.ipma.weather] Could not update weather forecast
+2023-02-18 22:03:18.232 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-485519024570 data: Error fetching data: DeviceConnectionError()
+2023-02-18 22:04:07.075 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyswitch25-4C75253369CE data: Error fetching data: DeviceConnectionError()

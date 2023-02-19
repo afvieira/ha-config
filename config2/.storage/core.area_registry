@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "name": "Sala de estar",
+        "id": "sala_de_estar",
+        "picture": null,
+        "aliases": []
+      },
+      {
+        "name": "Hall de entrada",
+        "id": "hall",
+        "picture": null,
+        "aliases": []
+      },
+      {
+        "name": "Escritório",
+        "id": "escritorio",
+        "picture": null,
+        "aliases": []
+      },
+      {
+        "name": "Suite",
+        "id": "suite",
+        "picture": null,
+        "aliases": []
+      },
+      {
+        "name": "Lavandaria",
+        "id": "lavandaria",
+        "picture": null,
+        "aliases": []
+      },
+      {
+        "name": "Cozinha",
+        "id": "cozinha",
+        "picture": null,
+        "aliases": []
+      },
+      {
+        "name": "Quarto Tomás",
+        "id": "quarto_tomas",
+        "picture": null,
+        "aliases": []
+      },
+      {
+        "name": "Geral",
+        "id": "geral",
+        "picture": null,
+        "aliases": []
+      }
+    ]
+  }
+}

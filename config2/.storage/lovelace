@@ -1,0 +1,359 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "switch.ar_condicionado_escritorio_display_light",
+                    "switch.ar_condicionado_escritorio_jet_mode",
+                    "cover.shelly25_escritorio",
+                    "sensor.ar_condicionado_escritorio_energy_current",
+                    "sensor.ar_condicionado_escritorio_filter_remaining_life",
+                    "sensor.ar_condicionado_escritorio_room_temperature",
+                    "sensor.archer_c80_ac1900_mu_mimo_wi_fi_router_kib_s_received",
+                    "sensor.archer_c80_ac1900_mu_mimo_wi_fi_router_kib_s_sent",
+                    "sensor.shelly25_escritorio_energy",
+                    "sensor.shelly25_escritorio_power"
+                  ],
+                  "title": "Escritório"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_escritorio"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "button.116d_activate_air_conditioning",
+                    "button.116d_deactivate_air_conditioning",
+                    "button.116d_find_vehicle",
+                    "button.116d_flash_lights",
+                    "lock.116d_lock",
+                    "button.116d_refresh_from_cloud",
+                    "button.116d_sound_horn",
+                    "switch.electric_scooter",
+                    "switch.electric_scooter_usb",
+                    "switch.mi_360deg_home_security_camera_2k",
+                    "switch.mi_360deg_home_security_camera_2k_usb",
+                    "binary_sensor.116d_check_control_messages",
+                    "binary_sensor.116d_condition_based_services",
+                    "binary_sensor.116d_door_lock_state",
+                    "binary_sensor.116d_lids",
+                    "sensor.116d_mileage",
+                    "sensor.116d_remaining_fuel",
+                    "sensor.116d_remaining_fuel_percent",
+                    "sensor.116d_remaining_range_fuel",
+                    "sensor.116d_remaining_range_total",
+                    "binary_sensor.116d_windows",
+                    "sensor.co2_signal_co2_intensity",
+                    "sensor.co2_signal_grid_fossil_fuel_percentage",
+                    "sensor.home_cloud_ceiling",
+                    "sensor.home_precipitation",
+                    "sensor.home_pressure_tendency",
+                    "sensor.home_realfeel_temperature",
+                    "sensor.home_uv_index",
+                    "sensor.home_wind",
+                    "sensor.energy_next_hour",
+                    "sensor.energy_current_hour",
+                    "sensor.energy_production_today",
+                    "sensor.energy_production_tomorrow",
+                    "sensor.power_production_now",
+                    "sensor.power_highest_peak_time_today",
+                    "sensor.power_highest_peak_time_tomorrow"
+                  ],
+                  "title": "Geral",
+                  "footer": {
+                    "type": "buttons",
+                    "entities": [
+                      {
+                        "entity": "scene.fechar_todos_os_estores",
+                        "show_icon": true,
+                        "show_name": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "weather-forecast",
+                  "entity": "weather.home",
+                  "show_forecast": false
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.consumo_geral",
+                "sensor.consumo_geral_channel_1_energy",
+                "sensor.consumo_geral_channel_1_energy_returned",
+                "sensor.consumo_geral_channel_1_power",
+                "sensor.consumo_geral_channel_1_power_factor",
+                "sensor.consumo_geral_channel_1_voltage",
+                "sensor.consumo_geral_channel_2_energy",
+                "sensor.consumo_geral_channel_2_energy_returned",
+                "sensor.consumo_geral_channel_2_power",
+                "sensor.consumo_geral_channel_2_power_factor",
+                "sensor.consumo_geral_channel_2_voltage",
+                "sensor.fibergateway_gr241ag_kib_s_received",
+                "sensor.fibergateway_gr241ag_kib_s_sent"
+              ],
+              "title": "Hall de entrada"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.bomba_de_calor",
+                "sensor.bomba_de_calor_energy",
+                "sensor.bomba_de_calor_power"
+              ],
+              "title": "Lavandaria"
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "switch.ar_condicionado_quarto_display_light",
+                    "switch.ar_condicionado_quarto_jet_mode",
+                    "cover.shelly25_quarto_tomas",
+                    "sensor.ar_condicionado_quarto_energy_current",
+                    "sensor.ar_condicionado_quarto_filter_remaining_life",
+                    "sensor.ar_condicionado_quarto_room_temperature",
+                    "sensor.shelly25_quarto_tomas_energy",
+                    "sensor.shelly25_quarto_tomas_power"
+                  ],
+                  "title": "Quarto Tomás"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_quarto"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "switch.ar_condicionado_sala_display_light",
+                    "switch.ar_condicionado_sala_jet_mode",
+                    "cover.shelly25_sala",
+                    "sensor.ar_condicionado_sala_energy_current",
+                    "sensor.ar_condicionado_sala_filter_remaining_life",
+                    "sensor.ar_condicionado_sala_room_temperature",
+                    "sensor.shelly25_sala_energy",
+                    "sensor.shelly25_sala_power"
+                  ],
+                  "title": "Sala de estar"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.sala_de_estar"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.meo_tv_box_4k_diw3930"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.samsung_q80aa_55_tv"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.samsung_q80aa_55_tv_2"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_sala"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "switch.ar_condicionado_suite_display_light",
+                    "switch.ar_condicionado_suite_jet_mode",
+                    "cover.shelly25_suite",
+                    "sensor.ar_condicionado_suite_energy_current",
+                    "sensor.ar_condicionado_suite_filter_remaining_life",
+                    "sensor.ar_condicionado_suite_room_temperature",
+                    "sensor.shelly25_suite_energy",
+                    "sensor.shelly25_suite_power"
+                  ],
+                  "title": "Suite"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_suite"
+                }
+              ]
+            },
+            {
+              "title": "Distribuição de energia hoje",
+              "type": "energy-distribution",
+              "link_dashboard": true
+            },
+            {
+              "type": "grid",
+              "square": true,
+              "columns": 3,
+              "cards": [
+                {
+                  "type": "picture-entity",
+                  "entity": "person.andre",
+                  "aspect_ratio": "1",
+                  "show_name": false,
+                  "image": "/api/image/serve/bb16b484c171a3fb59bb193db9caabbe/512x512"
+                },
+                {
+                  "type": "picture-entity",
+                  "entity": "person.filipa",
+                  "aspect_ratio": "1",
+                  "show_name": false,
+                  "image": "/api/image/serve/37c380eddb62c77ae1ea4c9d86db776a/512x512"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.local_ip",
+                "sensor.hacs"
+              ],
+              "title": "Sensor"
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.home_2",
+              "show_forecast": false
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Teste",
+          "path": "teste",
+          "badges": [],
+          "cards": [
+            {
+              "type": "thermostat",
+              "entity": "climate.ar_condicionado_suite"
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "switch.ar_condicionado_suite_display_light",
+                    "switch.ar_condicionado_suite_jet_mode",
+                    "sensor.ar_condicionado_suite_energy_current",
+                    "sensor.ar_condicionado_suite_filter_remaining_life",
+                    "sensor.ar_condicionado_suite_room_temperature"
+                  ]
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_suite"
+                }
+              ]
+            },
+            {
+              "type": "custom:mini-graph-card",
+              "entities": [
+                {
+                  "entity": "sensor.ar_condicionado_sala_room_temperature"
+                },
+                {
+                  "color": "gray",
+                  "entity": "sensor.period_of_day",
+                  "name": "Sun",
+                  "show_line": false,
+                  "show_points": false,
+                  "show_legend": false,
+                  "y_axis": "secondary"
+                }
+              ],
+              "points_per_hour": 1,
+              "name": "Living Room",
+              "animate": true,
+              "bar_spacing": 4,
+              "hour24": true,
+              "smoothing": true,
+              "align_state": "center",
+              "hours_to_show": 24,
+              "show": {
+                "labels": true,
+                "labels_secondary": true
+              },
+              "color_thresholds": [
+                {
+                  "value": 17,
+                  "color": "#ff9d9d"
+                },
+                {
+                  "value": 21,
+                  "color": "#ff6363"
+                },
+                {
+                  "value": 23,
+                  "color": "#ff0000"
+                }
+              ],
+              "state_map": [
+                {
+                  "value": "below_horizon",
+                  "label": "Night"
+                },
+                {
+                  "value": "above_horizon",
+                  "label": "Day"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.period_of_day"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

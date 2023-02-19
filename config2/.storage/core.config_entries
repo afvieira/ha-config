@@ -1,0 +1,580 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "6a5c43fa4f700ce6d2e5673bf72f0827",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3bd6b4a3876335b0da4396d7e9bf9d44",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3febe5b478d31dc4a07ebd75688b081f",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2ee3c12e838068f9efca351d72037794",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shellyswitch25-C8C9A367DEA5",
+        "data": {
+          "host": "192.168.1.101",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "C8C9A367DEA5",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e98c9c69d72d13892f906b74dba231f7",
+        "version": 1,
+        "domain": "sonos",
+        "title": "Sonos",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "sonos",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "56dbae50a59f358bc5ee4613fd7348f4",
+        "version": 1,
+        "domain": "shelly",
+        "title": "Consumo geral",
+        "data": {
+          "host": "192.168.1.66",
+          "sleep_period": 0,
+          "model": "SHEM",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "34945470F561",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ce834baebb7d362b8a300aae5ba9c3b0",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shellyswitch25-4C75253369CE",
+        "data": {
+          "host": "192.168.1.92",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "4C75253369CE",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f8e77504eb7b7f7cd930a9e9ecea9468",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shellyswitch25-485519024570",
+        "data": {
+          "host": "192.168.1.67",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "485519024570",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d4b9e8da0057f4a2eb93d9970d90f404",
+        "version": 1,
+        "domain": "shelly",
+        "title": "Bomba de calor",
+        "data": {
+          "host": "192.168.1.86",
+          "sleep_period": 0,
+          "model": "SHPLG-S",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "7C87CE881E76",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "86ecb418c1f3ae59ee7b7ba5d373aac8",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shellyswitch25-485519033DCF",
+        "data": {
+          "host": "192.168.1.65",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "485519033DCF",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "59092a5444c62b8447fd3a5c082a3de5",
+        "version": 1,
+        "domain": "cast",
+        "title": "Google Cast",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "82503e174b964c01b9f420a112d3a00d"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ed96354796e22709005251a23a8182d3",
+        "version": 2,
+        "domain": "samsungtv",
+        "title": "Samsung Q80AA 55 TV (QE55Q80AATXXC)",
+        "data": {
+          "host": "192.168.1.89",
+          "mac": "d8:a3:5c:cc:1f:3d",
+          "manufacturer": "Samsung",
+          "method": "websocket",
+          "model": "QE55Q80AATXXC",
+          "name": "Samsung Q80AA 55 TV",
+          "port": 8002,
+          "ssdp_rendering_control_location": "http://192.168.1.89:9197/dmr",
+          "ssdp_main_tv_agent_location": null,
+          "token": "17795308"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "5dc6faa3-1996-4389-aabe-57d4a3bb6652",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "590f258c25bac6237f3c2ed7dfc10186",
+        "version": 1,
+        "domain": "upnp",
+        "title": "FiberGateway GR241AG",
+        "data": {
+          "udn": "uuid:a6e07014-c0c0-474e-b973-fa71fc140c4e",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:4ee36ab6-d14f-4f22-ab3a-4df14a86489d",
+          "location": "http://192.168.1.254:5431/dyndev/uuid:a6e07014-c0c0-474e-b973-fa71fc140c4e",
+          "mac_address": null,
+          "host": "192.168.1.254"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:a6e07014-c0c0-474e-b973-fa71fc140c4e::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ab8cee12261f3f302ed22b42539ac386",
+        "version": 1,
+        "domain": "dlna_dmr",
+        "title": "Samsung Q80AA 55 TV",
+        "data": {
+          "url": "http://192.168.1.89:9197/dmr",
+          "device_id": "uuid:8739aefe-6500-4c2a-87ba-46c9154a6e7f",
+          "type": "urn:schemas-upnp-org:device:MediaRenderer:1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:8739aefe-6500-4c2a-87ba-46c9154a6e7f",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c65e50ca294accee5e83a0916b1d80a3",
+        "version": 1,
+        "domain": "upnp",
+        "title": "Archer C80 AC1900 MU-MIMO Wi-Fi Router",
+        "data": {
+          "udn": "uuid:upnp-InternetGatewayDevice-BD421FB75047",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:upnp-InternetGatewayDevice-BD421FB75047",
+          "location": "http://192.168.1.73:1900/igd.xml",
+          "mac_address": null,
+          "host": "192.168.1.73"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:upnp-InternetGatewayDevice-BD421FB75047::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "334300821e16ec1d28f92b3df258e30c",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone André",
+        "data": {
+          "supports_encryption": true,
+          "app_data": {
+            "push_token": "dsfM6pAWCUv0rn08dR3cnq:APA91bGuR0mqngu5K41hXzVXkhIxjdxyplEMuhhtHSGETgG-uXUL4AU1b2PkMshIgLkur2f0qD7qMXkQCOUrH3sskebQHQbbdgdspRwnN8yN_cFCcAUGzXOQAE3DaxNK2eGQ2TSF2Dyu",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "device_name": "iPhone André",
+          "app_version": "2023.2 (2023.444)",
+          "device_id": "0B943651-5A82-4E96-AAD0-196D61701A38",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_name": "Home Assistant",
+          "model": "iPhone8,4",
+          "os_version": "14.7.1",
+          "os_name": "iOS",
+          "manufacturer": "Apple",
+          "webhook_id": "3d60ba4833efab01e3f073f7e11f059ea9c03263c161d64b03f8dd93faf658d7",
+          "secret": "587ab19228c6003fe6f92a40d759d44525f418d5f2ff782e15eac82c0fbbcfdd",
+          "user_id": "5d63bc3d68db4a8b9e86bd231227f217",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-0B943651-5A82-4E96-AAD0-196D61701A38",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e0e307e9de746efb0f68863395cae1de",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0e9964b84573057dc7cf4a43064d3d65",
+        "version": 1,
+        "domain": "bmw_connected_drive",
+        "title": "andvieira.16@gmail.com",
+        "data": {
+          "username": "andvieira.16@gmail.com",
+          "password": "820251138aA11.",
+          "region": "rest_of_world",
+          "refresh_token": "0J8eSLLkB2A17eYrZqiK7hMUU0M"
+        },
+        "options": {
+          "read_only": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "rest_of_world-andvieira.16@gmail.com",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f5d5353f405f74c7e4b0d911c610956e",
+        "version": 1,
+        "domain": "smartthinq_sensors",
+        "title": "LGE Devices",
+        "data": {
+          "region": "PT",
+          "language": "pt-PT",
+          "token": "fb146b51934e338e950cdff22513beef578c933d95542848b97adf2de0375bbcd41cf70ce31e0067bbb2bc399b4ab955",
+          "use_api_v2": true,
+          "oauth2_url": "https://gb.lgeapi.com/"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "30990aa804e1be714829b02772f6170d",
+        "version": 1,
+        "domain": "local_ip",
+        "title": "local_ip",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "bfdc8e734d424a61f4651db00a464270",
+        "version": 1,
+        "domain": "xiaomi_miio",
+        "title": "Mi 360° Home Security Camera 2K",
+        "data": {
+          "config_flow_device": "device",
+          "host": "192.168.1.88",
+          "token": "66585158674d5638504c53336a434e4d",
+          "model": "chuangmi.plug.v1",
+          "mac": "60:7e:a4:ac:ec:ce",
+          "cloud_username": "andvieira.16@gmail.com",
+          "cloud_password": "820251138aA",
+          "cloud_country": "de"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "60:7e:a4:ac:ec:ce",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d22b2c72c6ab68f28c4be43d86a81b44",
+        "version": 1,
+        "domain": "accuweather",
+        "title": "Home",
+        "data": {
+          "api_key": "jRYCAsXfwINxefNn62pQeZrpOptj9FAF",
+          "latitude": 41.5620813540027,
+          "longitude": -8.386088171973826,
+          "name": "Home"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "861608",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b0bf7c8ce11f0a23c9c97468eb2d6fc3",
+        "version": 1,
+        "domain": "xiaomi_miio",
+        "title": "Electric Scooter",
+        "data": {
+          "config_flow_device": "device",
+          "host": "2.81.164.14",
+          "token": "fcb71dbd9482b14249079ab0",
+          "model": "chuangmi.plug.v1",
+          "mac": "eb:e6:2c:28:3f:c8",
+          "cloud_username": "andvieira.16@gmail.com",
+          "cloud_password": "820251138aA",
+          "cloud_country": "de"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "eb:e6:2c:28:3f:c8",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e5b98142579fd3010652e35961547522",
+        "version": 1,
+        "domain": "forecast_solar",
+        "title": "Home",
+        "data": {
+          "latitude": 41.5620813540027,
+          "longitude": -8.386088171973826
+        },
+        "options": {
+          "azimuth": 180,
+          "declination": 25,
+          "modules power": 0
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3c70c6e00abb6dc30c2d841085f0439a",
+        "version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping List",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "22b6e9c5057655c215e0fe48d6837888",
+        "version": 1,
+        "domain": "co2signal",
+        "title": "CO2 Signal",
+        "data": {
+          "api_key": "HJn5zxfzIf8kQm0fuqWdflKvmoMm8Ibg"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ea0666f380f051ae94219f6ff26e67ed",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone de Filipa Castro",
+        "data": {
+          "model": "iPhone12,1",
+          "app_data": {
+            "push_token": "dgI2eLzaAUHotaMMMOehbg:APA91bHigwhyVlB8E1-LXJV0bfXmEfHjBV-QyZZdx5ZwdFr4TUQzBgx-6ED6ydlvx9K75JbtgbWJEc6pF7fC3CfVXBHwFkmoBMu28gTVVdMf2eSOLQ6fYN7Bcs8gPscBwJl4YccqQXTN",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "supports_encryption": true,
+          "os_name": "iOS",
+          "app_version": "2023.2 (2023.444)",
+          "app_name": "Home Assistant",
+          "manufacturer": "Apple",
+          "device_id": "BC465167-2EE2-4921-9E29-3748744CC1B3",
+          "app_id": "io.robbie.HomeAssistant",
+          "device_name": "iPhone de Filipa Castro",
+          "os_version": "16.2",
+          "webhook_id": "fef41adfd9130aba8847091768125fb985f74475d6cd06097678633a1c28693f",
+          "secret": "aec1f9bcee816e4ab61f2451052f5001ef042784f535e094056cada4268f74e1",
+          "user_id": "81ec4d15bae54b40bb66f9af2ca38ee1",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-BC465167-2EE2-4921-9E29-3748744CC1B3",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fcf8e715cd8d8ca7f53801769a5b3d41",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shellyswitch25-3494547A54CB",
+        "data": {
+          "host": "192.168.1.111",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "3494547A54CB",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "26589d15ef038682abff064044cfbd8c",
+        "version": 1,
+        "domain": "ipma",
+        "title": "Home",
+        "data": {
+          "name": "Home",
+          "latitude": 41.5620813540027,
+          "longitude": -8.386088171973826,
+          "mode": "daily"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "299b88c50ba37fc21d63c3b8038a1afa",
+        "version": 1,
+        "domain": "speedtestdotnet",
+        "title": "SpeedTest",
+        "data": {},
+        "options": {
+          "server_name": "*Auto Detect",
+          "server_id": null
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a6992218cd214c21b06b0c95b32cc988",
+        "version": 1,
+        "domain": "icloud",
+        "title": "andrevieira69@hotmail.com",
+        "data": {
+          "username": "andrevieira69@hotmail.com",
+          "password": "9CH3P2WQaA11!",
+          "with_family": false,
+          "max_interval": 30,
+          "gps_accuracy_threshold": 500
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "reauth",
+        "unique_id": "andrevieira69@hotmail.com",
+        "disabled_by": null
+      }
+    ]
+  }
+}

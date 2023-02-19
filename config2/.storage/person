@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "André",
+        "user_id": "5d63bc3d68db4a8b9e86bd231227f217",
+        "device_trackers": [
+          "device_tracker.iphone_andre"
+        ],
+        "id": "andre",
+        "picture": "/api/image/serve/bb16b484c171a3fb59bb193db9caabbe/512x512"
+      },
+      {
+        "name": "Filipa",
+        "device_trackers": [
+          "device_tracker.iphone_de_filipa_castro"
+        ],
+        "user_id": "81ec4d15bae54b40bb66f9af2ca38ee1",
+        "picture": "/api/image/serve/37c380eddb62c77ae1ea4c9d86db776a/512x512",
+        "id": "filipa"
+      }
+    ]
+  }
+}

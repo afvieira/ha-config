@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js",
+        "type": "module",
+        "id": "ca0db5d6a58a419589164fce51c70309"
+      },
+      {
+        "url": "/hacsfiles/weather-radar-card/weather-radar-card.js?hacstag=487680971210",
+        "type": "module",
+        "id": "c71c4fbfcd834b548da8becca30ce6d9"
+      },
+      {
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375253",
+        "type": "module",
+        "id": "b27bd301073d46019fe4168d6ae604dc"
+      },
+      {
+        "url": "/hacsfiles/mini-media-player/mini-media-player-bundle.js?hacstag=1485208381165",
+        "type": "module",
+        "id": "e19df8be0f8846a3a6518ad01919623c"
+      },
+      {
+        "url": "/hacsfiles/lovelace-state-switch/state-switch.js?hacstag=158756598195",
+        "type": "module",
+        "id": "39dab7530c3d42e9968d0ca906c7af4d"
+      },
+      {
+        "url": "/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173",
+        "type": "module",
+        "id": "0c1eeb5b3ffc4d4b85ff78532473eaed"
+      }
+    ]
+  }
+}

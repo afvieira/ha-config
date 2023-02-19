@@ -1,0 +1,48 @@
+ls
+wget -O - https://get.hacs.xyz | bash -
+wget -O - https://get.hacs.xyz | bash -
+wget -O - https://get.hacs.xyz | bash -
+wget -O - https://get.hacs.xyz | bash -
+wget -O - https://get.hacs.xyz | bash -
+wget -O - https://get.hacs.xyz | bash -
+wget -O - https://get.hacs.xyz | bash -
+ping raw.githubusercontent.com
+wget -q -O - https://install.hacs.xyz | bash -
+wget
+wget -q -O - https://install.hacs.xyz | bash -
+ha help
+wget -O - https://get.hacs.xyz | bash -
+wget -q -O - https://install.hacs.xyz | bash -
+ping google.com
+ss-v
+ss -v
+ssh -v
+ssh --version
+ssh -v
+l
+ls
+sudo systemctl status bluetooth
+systemctl status bluetooth
+l
+ls
+ha
+l
+ls
+cd
+ls
+systemctl status bluetooth
+sudo apt-get -y install bluez
+ls
+sudo
+apt
+apt-get
+wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_2.5.5_amd64.deb -O apt.deb
+ping google.com
+ping www.google.com
+ha
+cli
+ha cli
+´
+ha cli wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_2.5.5_amd64.deb -O apt.deb
+ha cli info
+ha cli "wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_2.5.5_amd64.deb -O apt.deb"

@@ -1,0 +1,740 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_mushroom",
+  "data": {
+    "config": {
+      "kiosk_mode": {
+        "hide_header": true
+      },
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "custom:mushroom-chips-card",
+              "chips": [
+                {
+                  "type": "menu"
+                },
+                {
+                  "type": "weather",
+                  "entity": "weather.home",
+                  "show_conditions": true,
+                  "show_temperature": true
+                }
+              ],
+              "alignment": "center"
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mushroom-template-card",
+                  "primary": "{% set time = now().hour %}\n{% if (time >= 18) %}\n  Good Evening, {{user}}!\n{% elif (time >= 12) %}\n  Good Afternoon, {{user}}!\n{% elif (time >= 5) %}\n  Good Morning, {{user}}!\n{% else %}\n  Hello, {{user}}!\n{% endif %}",
+                  "secondary": "",
+                  "icon": "",
+                  "fill_container": true
+                },
+                {
+                  "type": "custom:state-switch",
+                  "entity": "user",
+                  "default": "default",
+                  "states": {
+                    "André": {
+                      "type": "custom:mushroom-entity-card",
+                      "entity": "sensor.iphone_andre_battery_level",
+                      "name": "iPhone Battery"
+                    },
+                    "Filipa": {
+                      "type": "custom:mushroom-entity-card",
+                      "entity": "sensor.iphone_filipa_battery_level",
+                      "name": "iPhone Battery"
+                    },
+                    "default": {
+                      "type": "markdown",
+                      "content": "**Unknown user**\n"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mushroom-template-card",
+                  "primary": "House",
+                  "secondary": "",
+                  "icon": "mdi:home",
+                  "icon_color": "blue",
+                  "layout": "vertical",
+                  "fill_container": false,
+                  "multiline_secondary": false,
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "house"
+                  }
+                },
+                {
+                  "type": "custom:mushroom-template-card",
+                  "primary": "Air Conditioner",
+                  "secondary": "",
+                  "icon": "mdi:air-conditioner",
+                  "badge_color": "",
+                  "icon_color": "light-green",
+                  "layout": "vertical",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-mushroom/air-conditioners"
+                  }
+                },
+                {
+                  "type": "custom:mushroom-template-card",
+                  "primary": "Car",
+                  "secondary": "",
+                  "icon": "mdi:car",
+                  "icon_color": "orange",
+                  "layout": "vertical",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "car"
+                  }
+                },
+                {
+                  "type": "custom:mushroom-template-card",
+                  "primary": "Network",
+                  "secondary": "",
+                  "icon": "mdi:router-wireless-settings",
+                  "icon_color": "purple",
+                  "layout": "vertical",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "network"
+                  }
+                },
+                {
+                  "type": "custom:mushroom-template-card",
+                  "primary": "Blinds",
+                  "secondary": "",
+                  "icon": "mdi:window-shutter",
+                  "layout": "vertical",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "blinds"
+                  },
+                  "icon_color": "yellow"
+                }
+              ]
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mushroom-person-card",
+                  "entity": "person.andre",
+                  "icon_type": "entity-picture"
+                },
+                {
+                  "type": "custom:mushroom-person-card",
+                  "entity": "person.filipa",
+                  "icon_type": "entity-picture"
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "Rooms"
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.ar_condicionado_sala",
+                  "name": "Living room",
+                  "icon": "mdi:sofa",
+                  "hvac_modes": [],
+                  "show_temperature_control": false,
+                  "collapsible_controls": false,
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "living-room"
+                  },
+                  "hold_action": {
+                    "action": "toggle"
+                  }
+                },
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.ar_condicionado_suite",
+                  "name": "Suite",
+                  "icon": "mdi:bed-king",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "suite"
+                  },
+                  "hold_action": {
+                    "action": "toggle"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.ar_condicionado_escritorio",
+                  "name": "Office",
+                  "icon": "mdi:desktop-tower-monitor",
+                  "hvac_modes": [],
+                  "show_temperature_control": false,
+                  "collapsible_controls": false,
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "office"
+                  },
+                  "hold_action": {
+                    "action": "toggle"
+                  }
+                },
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.ar_condicionado_quarto",
+                  "icon": "mdi:bed",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "bedroom-tomas"
+                  },
+                  "hold_action": {
+                    "action": "toggle"
+                  },
+                  "name": "Bedroom Tomás",
+                  "fill_container": false
+                }
+              ]
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "cover.shelly25_cozinha",
+                  "name": "Kitchen",
+                  "show_entity_picture": false,
+                  "vertical": false,
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-mushroom/kitchen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Living Room",
+          "path": "living-room",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:mushroom-chips-card",
+              "chips": [
+                {
+                  "type": "action",
+                  "double_tap_action": {
+                    "action": "none"
+                  },
+                  "icon": "mdi:home",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-mushroom"
+                  },
+                  "hold_action": {
+                    "action": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "Living Room"
+            },
+            {
+              "hours_to_show": 24,
+              "graph": "line",
+              "type": "sensor",
+              "entity": "sensor.ar_condicionado_sala_room_temperature",
+              "detail": 1
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "TV"
+            },
+            {
+              "type": "custom:mini-media-player",
+              "entity": "media_player.meo_tv_box_4k_diw3930",
+              "name": "Meo Box",
+              "info": "scroll",
+              "toggle_power": false,
+              "group": false
+            },
+            {
+              "type": "custom:mini-media-player",
+              "entity": "media_player.samsung_q80aa_55_tv",
+              "name": "TV",
+              "group": false
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Sound"
+            },
+            {
+              "type": "custom:mini-media-player",
+              "entity": "media_player.sala_de_estar",
+              "name": "Sonos"
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Blind"
+            },
+            {
+              "type": "custom:mushroom-cover-card",
+              "entity": "cover.shelly25_sala",
+              "name": "Blind",
+              "show_position_control": true,
+              "show_tilt_position_control": false,
+              "show_buttons_control": false
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Air conditioner"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.ar_condicionado_sala"
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Suite",
+          "path": "suite",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:mushroom-chips-card",
+              "chips": [
+                {
+                  "type": "action",
+                  "double_tap_action": {
+                    "action": "none"
+                  },
+                  "icon": "mdi:home",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-mushroom"
+                  },
+                  "hold_action": {
+                    "action": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "Suite"
+            },
+            {
+              "hours_to_show": 24,
+              "graph": "line",
+              "type": "sensor",
+              "entity": "sensor.ar_condicionado_suite_room_temperature",
+              "detail": 1
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Blind"
+            },
+            {
+              "type": "custom:mushroom-cover-card",
+              "entity": "cover.shelly25_suite",
+              "name": "Blind",
+              "show_position_control": true,
+              "show_tilt_position_control": false,
+              "show_buttons_control": false
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Air conditioner"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.ar_condicionado_suite"
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Office",
+          "path": "office",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:mushroom-chips-card",
+              "chips": [
+                {
+                  "type": "action",
+                  "double_tap_action": {
+                    "action": "none"
+                  },
+                  "icon": "mdi:home",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-mushroom"
+                  },
+                  "hold_action": {
+                    "action": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "Office"
+            },
+            {
+              "hours_to_show": 24,
+              "graph": "line",
+              "type": "sensor",
+              "entity": "sensor.ar_condicionado_escritorio_room_temperature",
+              "detail": 1
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Blind"
+            },
+            {
+              "type": "custom:mushroom-cover-card",
+              "entity": "cover.shelly25_escritorio",
+              "name": "Blind",
+              "show_position_control": true,
+              "show_tilt_position_control": false,
+              "show_buttons_control": false
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Air conditioner"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.ar_condicionado_escritorio"
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Bedroom Tomás",
+          "path": "bedroom-tomas",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:mushroom-chips-card",
+              "chips": [
+                {
+                  "type": "action",
+                  "double_tap_action": {
+                    "action": "none"
+                  },
+                  "icon": "mdi:home",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-mushroom"
+                  },
+                  "hold_action": {
+                    "action": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "Bedroom Tomás"
+            },
+            {
+              "hours_to_show": 24,
+              "graph": "line",
+              "type": "sensor",
+              "entity": "sensor.ar_condicionado_quarto_room_temperature",
+              "detail": 1
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Blind"
+            },
+            {
+              "type": "custom:mushroom-cover-card",
+              "entity": "cover.shelly25_quarto_tomas",
+              "name": "Blind",
+              "show_position_control": true,
+              "show_tilt_position_control": false,
+              "show_buttons_control": false
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Air conditioner"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.ar_condicionado_quarto"
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Kitchen",
+          "path": "kitchen",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:mushroom-chips-card",
+              "chips": [
+                {
+                  "type": "action",
+                  "double_tap_action": {
+                    "action": "none"
+                  },
+                  "icon": "mdi:home",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-mushroom"
+                  },
+                  "hold_action": {
+                    "action": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "Kitchen"
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "",
+              "subtitle": "Blind"
+            },
+            {
+              "type": "custom:mushroom-cover-card",
+              "entity": "cover.shelly25_cozinha",
+              "name": "Blind",
+              "show_position_control": true,
+              "show_tilt_position_control": false,
+              "show_buttons_control": false
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Air Conditioners",
+          "path": "air-conditioners",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:mushroom-chips-card",
+              "chips": [
+                {
+                  "type": "action",
+                  "double_tap_action": {
+                    "action": "none"
+                  },
+                  "icon": "mdi:home",
+                  "tap_action": {
+                    "action": "navigate",
+                    "navigation_path": "/dashboard-mushroom"
+                  },
+                  "hold_action": {
+                    "action": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-title-card",
+              "title": "Air conditioners"
+            },
+            {
+              "type": "custom:mini-graph-card",
+              "entities": [
+                {
+                  "entity": "sensor.ar_condicionado_escritorio_room_temperature",
+                  "name": "Office"
+                },
+                {
+                  "entity": "sensor.ar_condicionado_quarto_room_temperature",
+                  "name": "Bedroom Tomás"
+                },
+                {
+                  "entity": "sensor.ar_condicionado_sala_room_temperature",
+                  "name": "Living room"
+                },
+                {
+                  "entity": "sensor.ar_condicionado_suite_room_temperature",
+                  "name": "Suite"
+                }
+              ],
+              "hours_to_show": 24,
+              "points_per_hour": 4,
+              "name": "Temperatura ar condicionados",
+              "animate": true,
+              "line_width": 2,
+              "bar_spacing": 1,
+              "hour24": true,
+              "smoothing": true
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mini-graph-card",
+                  "entities": [
+                    {
+                      "entity": "sensor.ar_condicionado_sala_room_temperature"
+                    },
+                    {
+                      "color": "gray",
+                      "entity": "sun.sun",
+                      "name": "Sun",
+                      "show_line": false,
+                      "show_points": false,
+                      "show_legend": false,
+                      "y_axis": "secondary"
+                    }
+                  ],
+                  "points_per_hour": 1,
+                  "name": "Living Room",
+                  "animate": true,
+                  "bar_spacing": 4,
+                  "hour24": true,
+                  "smoothing": true,
+                  "align_state": "center",
+                  "hours_to_show": 24,
+                  "show": {
+                    "labels": true,
+                    "labels_secondary": true
+                  },
+                  "color_thresholds": [
+                    {
+                      "value": 17,
+                      "color": "#ff9d9d"
+                    },
+                    {
+                      "value": 21,
+                      "color": "#ff6363"
+                    },
+                    {
+                      "value": 23,
+                      "color": "#ff0000"
+                    }
+                  ],
+                  "state_map": [
+                    {
+                      "value": "below_horizon",
+                      "label": "Night"
+                    },
+                    {
+                      "value": "above_horizon",
+                      "label": "Day"
+                    }
+                  ]
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_sala"
+                }
+              ]
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mini-graph-card",
+                  "entities": [
+                    {
+                      "entity": "sensor.ar_condicionado_escritorio_room_temperature"
+                    }
+                  ],
+                  "points_per_hour": 1,
+                  "name": "Office",
+                  "animate": true,
+                  "line_width": 10,
+                  "bar_spacing": 4
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_escritorio"
+                }
+              ]
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mini-graph-card",
+                  "entities": [
+                    {
+                      "entity": "sensor.ar_condicionado_suite_room_temperature"
+                    }
+                  ],
+                  "points_per_hour": 1,
+                  "name": "Suite",
+                  "animate": true,
+                  "line_width": 10,
+                  "bar_spacing": 4
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_suite"
+                }
+              ]
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "custom:mini-graph-card",
+                  "entities": [
+                    {
+                      "entity": "sensor.ar_condicionado_quarto_room_temperature"
+                    }
+                  ],
+                  "points_per_hour": 1,
+                  "name": "Quarto Tomás",
+                  "animate": true,
+                  "line_width": 10,
+                  "bar_spacing": 4
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.ar_condicionado_quarto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

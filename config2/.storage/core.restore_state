@@ -1,0 +1,1463 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.andre",
+        "state": "home",
+        "attributes": {
+          "editable": true,
+          "id": "andre",
+          "latitude": 41.56207275390625,
+          "longitude": -8.386248198010422,
+          "gps_accuracy": 65,
+          "source": "device_tracker.iphone_andre",
+          "user_id": "5d63bc3d68db4a8b9e86bd231227f217",
+          "entity_picture": "/api/image/serve/bb16b484c171a3fb59bb193db9caabbe/512x512",
+          "friendly_name": "André"
+        },
+        "last_changed": "2023-02-18T19:41:10.384638+00:00",
+        "last_updated": "2023-02-18T19:41:34.441581+00:00",
+        "context": {
+          "id": "01GSK0QJV95C9G61NTWCGSYK4A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "person.filipa",
+        "state": "home",
+        "attributes": {
+          "editable": true,
+          "id": "filipa",
+          "latitude": 41.5621337890625,
+          "longitude": -8.386057460730164,
+          "gps_accuracy": 35,
+          "source": "device_tracker.iphone_de_filipa_castro",
+          "user_id": "81ec4d15bae54b40bb66f9af2ca38ee1",
+          "entity_picture": "/api/image/serve/37c380eddb62c77ae1ea4c9d86db776a/512x512",
+          "friendly_name": "Filipa"
+        },
+        "last_changed": "2023-02-18T19:41:10.384778+00:00",
+        "last_updated": "2023-02-18T19:41:34.441999+00:00",
+        "context": {
+          "id": "01GSK0QJV9030ZBZBJBZCADV60",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2023.01.1",
+          "in_progress": false,
+          "latest_version": "2023.01.1",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2023.01.1",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "friendly_name": "Home Assistant Supervisor Update",
+          "supported_features": 1
+        },
+        "last_changed": "2023-02-18T19:41:15.638319+00:00",
+        "last_updated": "2023-02-18T19:41:15.638319+00:00",
+        "context": {
+          "id": "01GSK0Q0FPNDBR16EBMNSJFAXF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2023.2.2",
+          "in_progress": false,
+          "latest_version": "2023.2.5",
+          "release_summary": null,
+          "release_url": "https://www.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core Update",
+          "supported_features": 11
+        },
+        "last_changed": "2023-02-18T19:41:15.639613+00:00",
+        "last_updated": "2023-02-18T19:41:15.639613+00:00",
+        "context": {
+          "id": "01GSK0Q0FQF2V8DDH0WBAQY9WG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "9.6.1",
+          "in_progress": false,
+          "latest_version": "9.6.1",
+          "release_summary": "# Changelog\n\n## 9.6.1\n\n- Upgrade Home Assistant CLI to 4.21.0\n\n## 9.6.0\n\n**Breaking change**: RSA keys generated using the SHA-1 hash algorithm\nwere disabled by OpenSSH due to a security vulnerability. If you find\nyour RSA key does not work after update y",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Terminal & SSH",
+          "entity_picture": "/api/hassio/addons/core_ssh/icon",
+          "friendly_name": "Terminal & SSH Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-02-18T19:41:15.639884+00:00",
+        "last_updated": "2023-02-18T19:41:15.639884+00:00",
+        "context": {
+          "id": "01GSK0Q0FQ76XB8JEWVW09ZMGN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.duck_dns_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "1.15.0",
+          "in_progress": false,
+          "latest_version": "1.15.0",
+          "release_summary": "# Changelog\n\n## 1.15.0\n\n- Use Supervisor API to detect IPv6 host addresses, selectable by interface\n- Split IPv4 and IPv6 updates as duckdns skips v4 detection with v6 present\n- Fix misleading help text regarding IPv6 address autodetection\n- Disable Docke",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Duck DNS",
+          "entity_picture": "/api/hassio/addons/core_duckdns/icon",
+          "friendly_name": "Duck DNS Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-02-18T19:41:15.640048+00:00",
+        "last_updated": "2023-02-18T19:41:15.640048+00:00",
+        "context": {
+          "id": "01GSK0Q0FR6RWDM954G8025PES",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.studio_code_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "5.5.2",
+          "in_progress": false,
+          "latest_version": "5.5.2",
+          "release_summary": "## What’s changed\n\nPrepares for Home Assistant Core 2023.2, by providing compatibility with custom sentences/intents from the conversation integration.\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2023 @frenck ([#566](https://github.com/hass",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Studio Code Server",
+          "entity_picture": "/api/hassio/addons/a0d7b954_vscode/icon",
+          "friendly_name": "Studio Code Server Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-02-18T19:41:15.640214+00:00",
+        "last_updated": "2023-02-18T19:41:15.640214+00:00",
+        "context": {
+          "id": "01GSK0Q0FR4GJ7Z1NP6F0V0WPF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.influxdb_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.5.0",
+          "in_progress": false,
+          "latest_version": "4.5.0",
+          "release_summary": "## What’s changed\n\n## 📚 Documentation\n\n- 📚 Use new My Home Assistant link format @frenck (#249)\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 6.0.0 @frenck (#248)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "InfluxDB",
+          "entity_picture": "/api/hassio/addons/a0d7b954_influxdb/icon",
+          "friendly_name": "InfluxDB Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-02-18T19:41:15.640377+00:00",
+        "last_updated": "2023-02-18T19:41:15.640377+00:00",
+        "context": {
+          "id": "01GSK0Q0FRGC39F7GDA45902WN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.grafana_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "8.1.0",
+          "in_progress": false,
+          "latest_version": "8.1.0",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 6.1.3 @frenck (#286)\n- ⬆️ Upgrades Grafana to v9.2.4 @frenck (#287)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Grafana",
+          "entity_picture": "/api/hassio/addons/a0d7b954_grafana/icon",
+          "friendly_name": "Grafana Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-02-18T19:41:15.640873+00:00",
+        "last_updated": "2023-02-18T19:41:15.640873+00:00",
+        "context": {
+          "id": "01GSK0Q0FRHVMK9FBQEGGRKPGR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_operating_system_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "9.5",
+          "in_progress": false,
+          "latest_version": "9.5",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/operating-system/releases/tag/9.5",
+          "skipped_version": null,
+          "title": "Home Assistant Operating System",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Operating System Update",
+          "supported_features": 3
+        },
+        "last_changed": "2023-02-18T19:41:15.641183+00:00",
+        "last_updated": "2023-02-18T19:41:15.641183+00:00",
+        "context": {
+          "id": "01GSK0Q0FS0DY8FHSKREV1KD5Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.fechar_todos_os_estores",
+        "state": "2023-02-02T07:11:13.996546+00:00",
+        "attributes": {
+          "entity_id": [
+            "cover.shelly25_escritorio",
+            "cover.shelly25_quarto_tomas",
+            "cover.shelly25_sala",
+            "cover.shelly25_suite"
+          ],
+          "id": "1673063510544",
+          "icon": "mdi:window-shutter",
+          "friendly_name": "Fechar todos os estores"
+        },
+        "last_changed": "2023-02-18T19:41:16.355440+00:00",
+        "last_updated": "2023-02-18T19:41:16.355440+00:00",
+        "context": {
+          "id": "01GSK0Q163ZTG5SZXQ45V7ZP8P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.nova_automatizacao",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2023-01-29T11:13:12.147244+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1673222347908",
+          "friendly_name": "Nova Automatização"
+        },
+        "last_changed": "2023-02-18T19:41:16.725959+00:00",
+        "last_updated": "2023-02-18T19:41:16.725959+00:00",
+        "context": {
+          "id": "01GSK0Q1HNSVY3QCEKBKFRVJY2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_ping",
+        "state": "13",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Lisboa",
+          "server_country": "Portugal",
+          "server_id": "54476",
+          "unit_of_measurement": "ms",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Ping"
+        },
+        "last_changed": "2023-02-18T21:42:29.986566+00:00",
+        "last_updated": "2023-02-18T21:42:29.986566+00:00",
+        "context": {
+          "id": "01GSK7N0B2E2KCT5BK5X8JZGKR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_download",
+        "state": "434.32",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Lisboa",
+          "server_country": "Portugal",
+          "server_id": "54476",
+          "bytes_received": 409373932,
+          "unit_of_measurement": "Mbit/s",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Download"
+        },
+        "last_changed": "2023-02-18T21:42:29.986833+00:00",
+        "last_updated": "2023-02-18T21:42:29.986833+00:00",
+        "context": {
+          "id": "01GSK7N0B2N3MGM7RF6B1NHDP2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.speedtest_upload",
+        "state": "126.03",
+        "attributes": {
+          "state_class": "measurement",
+          "server_name": "Lisboa",
+          "server_country": "Portugal",
+          "server_id": "54476",
+          "bytes_sent": 151519232,
+          "unit_of_measurement": "Mbit/s",
+          "attribution": "Data retrieved from Speedtest.net by Ookla",
+          "icon": "mdi:speedometer",
+          "friendly_name": "SpeedTest Upload"
+        },
+        "last_changed": "2023-02-18T21:42:29.987316+00:00",
+        "last_updated": "2023-02-18T21:42:29.987316+00:00",
+        "context": {
+          "id": "01GSK7N0B3VKRH179HQM7JD8BK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_activity",
+        "state": "Unknown",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Unknown"
+          ],
+          "icon": "mdi:help-circle",
+          "friendly_name": "iPhone André Activity"
+        },
+        "last_changed": "2023-02-18T19:41:19.745641+00:00",
+        "last_updated": "2023-02-18T19:41:19.745641+00:00",
+        "context": {
+          "id": "01GSK0Q4G1BMHSGTNK5PWA6T2Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_battery_level",
+        "state": "71",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-70",
+          "friendly_name": "iPhone André Battery Level"
+        },
+        "last_changed": "2023-02-18T19:41:19.745826+00:00",
+        "last_updated": "2023-02-18T19:41:19.745826+00:00",
+        "context": {
+          "id": "01GSK0Q4G19VWJNMSK2TA1CN3H",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 71,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-70",
+          "friendly_name": "iPhone André Battery State"
+        },
+        "last_changed": "2023-02-18T19:41:19.745983+00:00",
+        "last_updated": "2023-02-18T19:41:19.745983+00:00",
+        "context": {
+          "id": "01GSK0Q4G1AYA2F5MPPSFPVEC2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_storage",
+        "state": "3.33",
+        "attributes": {
+          "Available": "3,28 GB",
+          "Available (Important)": "3,42 GB",
+          "Available (Opportunistic)": "2,13 GB",
+          "Total": "63,98 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone André Storage"
+        },
+        "last_changed": "2023-02-18T19:41:19.746139+00:00",
+        "last_updated": "2023-02-18T19:41:19.746139+00:00",
+        "context": {
+          "id": "01GSK0Q4G25P8D099NCVXBJQT3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "3.33",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone André SSID"
+        },
+        "last_changed": "2023-02-18T19:41:19.746292+00:00",
+        "last_updated": "2023-02-18T19:41:19.746292+00:00",
+        "context": {
+          "id": "01GSK0Q4G2YSRQ6WDN9TSA8NFH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone André BSSID"
+        },
+        "last_changed": "2023-02-18T19:41:19.746442+00:00",
+        "last_updated": "2023-02-18T19:41:19.746442+00:00",
+        "context": {
+          "id": "01GSK0Q4G2JVR0VYJWDGBMT57S",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPhone André Connection Type"
+        },
+        "last_changed": "2023-02-18T19:41:19.746589+00:00",
+        "last_updated": "2023-02-18T19:41:19.746589+00:00",
+        "context": {
+          "id": "01GSK0Q4G2E07DNM4C729V6DN9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_sim_1",
+        "state": "NOS",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "NOS",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "pt",
+          "Mobile Country Code": "268",
+          "Mobile Network Code": "03",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone André SIM 1"
+        },
+        "last_changed": "2023-02-18T19:41:19.746735+00:00",
+        "last_updated": "2023-02-18T19:41:19.746735+00:00",
+        "context": {
+          "id": "01GSK0Q4G2VX0NJY6M06V54ENX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "NOS",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_geocoded_location",
+        "state": "Rua de Pousada\n4710-049 Braga\nPortugal",
+        "attributes": {
+          "Administrative Area": "Norte",
+          "Areas Of Interest": "N/A",
+          "Country": "Portugal",
+          "Inland Water": "N/A",
+          "ISO Country Code": "PT",
+          "Locality": "Braga",
+          "Location": [
+            41.56207275390625,
+            -8.386248198010422
+          ],
+          "Name": "Rua de Pousada",
+          "Ocean": "N/A",
+          "Postal Code": "4710-049",
+          "Sub Administrative Area": "Braga",
+          "Sub Locality": "União das freguesias de Nogueiró e Tenões",
+          "Sub Thoroughfare": "N/A",
+          "Thoroughfare": "Rua de Pousada",
+          "Time Zone": "Europe/Lisbon",
+          "Zones": [
+            "Home"
+          ],
+          "icon": "mdi:map",
+          "friendly_name": "iPhone André Geocoded Location"
+        },
+        "last_changed": "2023-02-18T19:41:19.746877+00:00",
+        "last_updated": "2023-02-18T19:41:19.746877+00:00",
+        "context": {
+          "id": "01GSK0Q4G2K3W3MV19MWMS63XY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Rua de Pousada\n4710-049 Braga\nPortugal",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_last_update_trigger",
+        "state": "Manual",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone André Last Update Trigger"
+        },
+        "last_changed": "2023-02-18T19:41:19.747024+00:00",
+        "last_updated": "2023-02-18T19:41:19.747024+00:00",
+        "context": {
+          "id": "01GSK0Q4G355EWC2C14CPW741Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Manual",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_distance",
+        "state": "171",
+        "attributes": {
+          "unit_of_measurement": "m",
+          "icon": "mdi:hiking",
+          "friendly_name": "iPhone André Distance"
+        },
+        "last_changed": "2023-02-18T19:41:19.747182+00:00",
+        "last_updated": "2023-02-18T19:41:19.747182+00:00",
+        "context": {
+          "id": "01GSK0Q4G3ZCFGEW0JS1HYAGZ8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 171,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_steps",
+        "state": "231",
+        "attributes": {
+          "unit_of_measurement": "steps",
+          "icon": "mdi:walk",
+          "friendly_name": "iPhone André Steps"
+        },
+        "last_changed": "2023-02-18T19:41:19.747339+00:00",
+        "last_updated": "2023-02-18T19:41:19.747339+00:00",
+        "context": {
+          "id": "01GSK0Q4G39GQ0J94C32BASRE6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 231,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_andre_average_active_pace",
+        "state": "1",
+        "attributes": {
+          "unit_of_measurement": "m/s",
+          "icon": "mdi:speedometer",
+          "friendly_name": "iPhone André Average Active Pace"
+        },
+        "last_changed": "2023-02-18T19:41:19.747769+00:00",
+        "last_updated": "2023-02-18T19:41:19.747769+00:00",
+        "context": {
+          "id": "01GSK0Q4G3A4HY9871S9KMDC0F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_battery_level",
+        "state": "95",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-90",
+          "friendly_name": "iPhone de Filipa Castro Battery Level"
+        },
+        "last_changed": "2023-02-18T19:41:19.748040+00:00",
+        "last_updated": "2023-02-18T19:41:19.748040+00:00",
+        "context": {
+          "id": "01GSK0Q4G4W25F3EQ6QPMZ9DXG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 95,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_sim_1",
+        "state": "NOS",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "NOS",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "pt",
+          "Mobile Country Code": "268",
+          "Mobile Network Code": "03",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone de Filipa Castro SIM 1"
+        },
+        "last_changed": "2023-02-18T19:41:19.748214+00:00",
+        "last_updated": "2023-02-18T19:41:19.748214+00:00",
+        "context": {
+          "id": "01GSK0Q4G4TJB1CBT4GGFYESDA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "NOS",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_geocoded_location",
+        "state": "Rua Domingos Rodrigues\n4710-049 Braga\nPortugal",
+        "attributes": {
+          "Administrative Area": "Norte",
+          "Areas Of Interest": "N/A",
+          "Country": "Portugal",
+          "Inland Water": "N/A",
+          "ISO Country Code": "PT",
+          "Locality": "Braga",
+          "Location": [
+            41.5621337890625,
+            -8.386057460730164
+          ],
+          "Name": "Rua Domingos Rodrigues",
+          "Ocean": "N/A",
+          "Postal Code": "4710-049",
+          "Sub Administrative Area": "Braga",
+          "Sub Locality": "União das freguesias de Nogueiró e Tenões",
+          "Sub Thoroughfare": "N/A",
+          "Thoroughfare": "Rua Domingos Rodrigues",
+          "Time Zone": "Europe/Lisbon",
+          "Zones": [
+            "Home"
+          ],
+          "icon": "mdi:map",
+          "friendly_name": "iPhone de Filipa Castro Geocoded Location"
+        },
+        "last_changed": "2023-02-18T19:41:19.749426+00:00",
+        "last_updated": "2023-02-18T19:41:19.749426+00:00",
+        "context": {
+          "id": "01GSK0Q4G5VH4841MWEVCVQ7Y4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Rua Domingos Rodrigues\n4710-049 Braga\nPortugal",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_last_update_trigger",
+        "state": "Launch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone de Filipa Castro Last Update Trigger"
+        },
+        "last_changed": "2023-02-18T19:41:19.749724+00:00",
+        "last_updated": "2023-02-18T19:41:19.749724+00:00",
+        "context": {
+          "id": "01GSK0Q4G5WG5KF00K0AQ6J9JW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Launch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": true,
+          "icon": "mdi:battery-90",
+          "friendly_name": "iPhone de Filipa Castro Battery State"
+        },
+        "last_changed": "2023-02-18T19:41:19.749889+00:00",
+        "last_updated": "2023-02-18T19:41:19.749889+00:00",
+        "context": {
+          "id": "01GSK0Q4G56F2C8TZY63ERNRKK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_storage",
+        "state": "0.17",
+        "attributes": {
+          "Available": "1,39 GB",
+          "Available (Important)": "1,40 GB",
+          "Available (Opportunistic)": "105,7 MB",
+          "Total": "63,93 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone de Filipa Castro Storage"
+        },
+        "last_changed": "2023-02-18T19:41:19.750051+00:00",
+        "last_updated": "2023-02-18T19:41:19.750051+00:00",
+        "context": {
+          "id": "01GSK0Q4G642YH7FQE78P2C235",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0.17",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone de Filipa Castro SIM 2"
+        },
+        "last_changed": "2023-02-18T19:41:19.750223+00:00",
+        "last_updated": "2023-02-18T19:41:19.750223+00:00",
+        "context": {
+          "id": "01GSK0Q4G6PZRKRPS295NTVT1B",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_connection_type",
+        "state": "Cellular",
+        "attributes": {
+          "Cellular Technology": "4G",
+          "icon": "mdi:signal",
+          "friendly_name": "iPhone de Filipa Castro Connection Type"
+        },
+        "last_changed": "2023-02-18T19:41:19.750385+00:00",
+        "last_updated": "2023-02-18T19:41:19.750385+00:00",
+        "context": {
+          "id": "01GSK0Q4G65F5KQK6Y8QQ6HB83",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Cellular",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone de Filipa Castro SSID"
+        },
+        "last_changed": "2023-02-18T19:41:19.750558+00:00",
+        "last_updated": "2023-02-18T19:41:19.750558+00:00",
+        "context": {
+          "id": "01GSK0Q4G6JPBG7DB2FTSCAV4C",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone de Filipa Castro BSSID"
+        },
+        "last_changed": "2023-02-18T19:41:19.750718+00:00",
+        "last_updated": "2023-02-18T19:41:19.750718+00:00",
+        "context": {
+          "id": "01GSK0Q4G6BGZFYTCG6TCYE058",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_activity",
+        "state": "Automotive",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Automotive"
+          ],
+          "icon": "mdi:car",
+          "friendly_name": "iPhone de Filipa Castro Activity"
+        },
+        "last_changed": "2023-02-18T19:41:19.751054+00:00",
+        "last_updated": "2023-02-18T19:41:19.751054+00:00",
+        "context": {
+          "id": "01GSK0Q4G7GTQDHGADVB9DSZ0Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Automotive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_distance",
+        "state": "190",
+        "attributes": {
+          "unit_of_measurement": "m",
+          "icon": "mdi:hiking",
+          "friendly_name": "iPhone de Filipa Castro Distance"
+        },
+        "last_changed": "2023-02-18T19:41:19.751252+00:00",
+        "last_updated": "2023-02-18T19:41:19.751252+00:00",
+        "context": {
+          "id": "01GSK0Q4G7QJX2DF805MCATH4E",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 190,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_floors_ascended",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-up",
+          "friendly_name": "iPhone de Filipa Castro Floors Ascended"
+        },
+        "last_changed": "2023-02-18T19:41:19.751408+00:00",
+        "last_updated": "2023-02-18T19:41:19.751408+00:00",
+        "context": {
+          "id": "01GSK0Q4G7N8M8C0WKEBB6PM8V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_steps",
+        "state": "276",
+        "attributes": {
+          "unit_of_measurement": "steps",
+          "icon": "mdi:walk",
+          "friendly_name": "iPhone de Filipa Castro Steps"
+        },
+        "last_changed": "2023-02-18T19:41:19.751570+00:00",
+        "last_updated": "2023-02-18T19:41:19.751570+00:00",
+        "context": {
+          "id": "01GSK0Q4G7KHCMS6VZQN3BMTH3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 276,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_floors_descended",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-down",
+          "friendly_name": "iPhone de Filipa Castro Floors Descended"
+        },
+        "last_changed": "2023-02-18T19:41:19.751742+00:00",
+        "last_updated": "2023-02-18T19:41:19.751742+00:00",
+        "context": {
+          "id": "01GSK0Q4G7KBF5QYT1B2N2E17W",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_de_filipa_castro_average_active_pace",
+        "state": "5",
+        "attributes": {
+          "unit_of_measurement": "m/s",
+          "icon": "mdi:speedometer",
+          "friendly_name": "iPhone de Filipa Castro Average Active Pace"
+        },
+        "last_changed": "2023-02-18T19:41:19.751977+00:00",
+        "last_updated": "2023-02-18T19:41:19.751977+00:00",
+        "context": {
+          "id": "01GSK0Q4G7RCCR4XXXNAYX0HN9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 5,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.iphone_de_filipa_castro_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "iPhone de Filipa Castro Focus"
+        },
+        "last_changed": "2023-02-18T19:41:19.752230+00:00",
+        "last_updated": "2023-02-18T19:41:19.752230+00:00",
+        "context": {
+          "id": "01GSK0Q4G8QB40Q2JXNZJH10AR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone_andre",
+        "state": "home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 28,
+          "latitude": 41.56207275390625,
+          "longitude": -8.386248198010422,
+          "gps_accuracy": 65,
+          "altitude": 193.46360778808594,
+          "vertical_accuracy": 26.891756057739258,
+          "friendly_name": "iPhone André"
+        },
+        "last_changed": "2023-02-18T19:41:19.805776+00:00",
+        "last_updated": "2023-02-18T19:41:19.805776+00:00",
+        "context": {
+          "id": "01GSK0Q4HX82KKR4TWYYMG40AC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone_de_filipa_castro",
+        "state": "home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 69,
+          "latitude": 41.5621337890625,
+          "longitude": -8.386057460730164,
+          "gps_accuracy": 35,
+          "altitude": 191.43134307861328,
+          "vertical_accuracy": 19.012460708618164,
+          "friendly_name": "iPhone de Filipa Castro"
+        },
+        "last_changed": "2023-02-18T19:41:19.806084+00:00",
+        "last_updated": "2023-02-18T19:41:19.806084+00:00",
+        "context": {
+          "id": "01GSK0Q4HYHE5RYG19T9MR2V6A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.bomba_de_calor_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Bomba de calor Reboot"
+        },
+        "last_changed": "2023-02-18T19:41:20.311568+00:00",
+        "last_updated": "2023-02-18T19:41:20.311568+00:00",
+        "context": {
+          "id": "01GSK0Q51QFPHTJ36PDXFHAH4Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly25_cozinha_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "shelly25-cozinha Reboot"
+        },
+        "last_changed": "2023-02-18T19:41:20.311777+00:00",
+        "last_updated": "2023-02-18T19:41:20.311777+00:00",
+        "context": {
+          "id": "01GSK0Q51QKAP99VADQ4R4GE3G",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly25_sala_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Shelly25-sala Reboot"
+        },
+        "last_changed": "2023-02-18T19:41:20.335630+00:00",
+        "last_updated": "2023-02-18T19:41:20.335630+00:00",
+        "context": {
+          "id": "01GSK0Q52F3JFZNW04PZ9D077M",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly25_suite_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Shelly25-suite Reboot"
+        },
+        "last_changed": "2023-02-18T21:44:26.237841+00:00",
+        "last_updated": "2023-02-18T21:44:26.237841+00:00",
+        "context": {
+          "id": "01GSK7RHVXBYD7H79SKKXGV6WG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.consumo_geral_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Consumo geral Reboot"
+        },
+        "last_changed": "2023-02-18T19:41:20.423680+00:00",
+        "last_updated": "2023-02-18T19:41:20.423680+00:00",
+        "context": {
+          "id": "01GSK0Q557ZGD02VZNVFWJDK7W",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly25_escritorio_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Shelly25-escritorio Reboot"
+        },
+        "last_changed": "2023-02-18T20:16:09.158689+00:00",
+        "last_updated": "2023-02-18T20:16:09.158689+00:00",
+        "context": {
+          "id": "01GSK2PWY6PHX5XY0P64GD0XF4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shelly25_quarto_tomas_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Shelly25-quarto-tomas Reboot"
+        },
+        "last_changed": "2023-02-18T20:49:42.455170+00:00",
+        "last_updated": "2023-02-18T20:49:42.455170+00:00",
+        "context": {
+          "id": "01GSK4MB1QTDP1BECJBPXD2TJP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.116d_flash_lights",
+        "state": "unknown",
+        "attributes": {
+          "attribution": "Data provided by MyBMW",
+          "icon": "mdi:car-light-alert",
+          "friendly_name": "116d Flash lights"
+        },
+        "last_changed": "2023-02-18T19:41:23.033088+00:00",
+        "last_updated": "2023-02-18T19:41:23.033088+00:00",
+        "context": {
+          "id": "01GSK0Q7PSXMDHVVDYPBEXCX7Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.116d_sound_horn",
+        "state": "unknown",
+        "attributes": {
+          "attribution": "Data provided by MyBMW",
+          "icon": "mdi:bullhorn",
+          "friendly_name": "116d Sound horn"
+        },
+        "last_changed": "2023-02-18T19:41:23.033509+00:00",
+        "last_updated": "2023-02-18T19:41:23.033509+00:00",
+        "context": {
+          "id": "01GSK0Q7PSXJR47T8QN85CEVNG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.116d_activate_air_conditioning",
+        "state": "unknown",
+        "attributes": {
+          "attribution": "Data provided by MyBMW",
+          "icon": "mdi:hvac",
+          "friendly_name": "116d Activate air conditioning"
+        },
+        "last_changed": "2023-02-18T19:41:23.033697+00:00",
+        "last_updated": "2023-02-18T19:41:23.033697+00:00",
+        "context": {
+          "id": "01GSK0Q7PS7HZKZKWF51ED6V5S",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.116d_deactivate_air_conditioning",
+        "state": "unknown",
+        "attributes": {
+          "attribution": "Data provided by MyBMW",
+          "icon": "mdi:hvac-off",
+          "friendly_name": "116d Deactivate air conditioning"
+        },
+        "last_changed": "2023-02-18T19:41:23.033996+00:00",
+        "last_updated": "2023-02-18T19:41:23.033996+00:00",
+        "context": {
+          "id": "01GSK0Q7PSY9YSBRDMYW9GBZ7J",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.116d_find_vehicle",
+        "state": "unknown",
+        "attributes": {
+          "attribution": "Data provided by MyBMW",
+          "icon": "mdi:crosshairs-question",
+          "friendly_name": "116d Find vehicle"
+        },
+        "last_changed": "2023-02-18T19:41:23.034189+00:00",
+        "last_updated": "2023-02-18T19:41:23.034189+00:00",
+        "context": {
+          "id": "01GSK0Q7PT2NW6YA9196QKMMZK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.116d_refresh_from_cloud",
+        "state": "unknown",
+        "attributes": {
+          "attribution": "Data provided by MyBMW",
+          "icon": "mdi:refresh",
+          "friendly_name": "116d Refresh from cloud"
+        },
+        "last_changed": "2023-02-18T19:41:23.034407+00:00",
+        "last_updated": "2023-02-18T19:41:23.034407+00:00",
+        "context": {
+          "id": "01GSK0Q7PT59CP1RFR9CS0RFEG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-18T21:56:34.452667+00:00"
+    }
+  ]
+}

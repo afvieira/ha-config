@@ -1,0 +1,29 @@
+- id: '1673063510544'
+  name: Fechar todos os estores
+  entities:
+    cover.shelly25_escritorio:
+      current_position: 100
+      device_class: shutter
+      friendly_name: Shelly25-escritorio
+      supported_features: 15
+      state: open
+    cover.shelly25_quarto_tomas:
+      device_class: shutter
+      friendly_name: Shelly25-quarto-tomas
+      supported_features: 15
+      current_position: 100
+      state: open
+    cover.shelly25_sala:
+      current_position: 100
+      device_class: shutter
+      friendly_name: Shelly25-sala
+      supported_features: 15
+      state: open
+    cover.shelly25_suite:
+      current_position: 32
+      device_class: shutter
+      friendly_name: Shelly25-suite
+      supported_features: 15
+      state: open
+  icon: mdi:window-shutter
+  metadata: {}

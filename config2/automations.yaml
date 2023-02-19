@@ -1,0 +1,22 @@
+- id: '1673222347908'
+  alias: Nova Automatização
+  description: ''
+  trigger:
+  condition: []
+  action:
+  - service: notify.mobile_app_iphone_andre
+    data:
+      message: Teste
+      title: Notification!!!
+      data:
+        actions:
+        - action: ALARM
+          title: Sound Alarm
+          destructive: true
+        - action: URI
+          title: Open Url
+          uri: https://google.com
+        - action: SILENCE
+          title: Silence Alarm
+          icon: sfsymbols:bell.slash
+  mode: single

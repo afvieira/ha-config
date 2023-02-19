@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "energy",
+  "data": {
+    "energy_sources": [
+      {
+        "type": "grid",
+        "flow_from": [
+          {
+            "stat_energy_from": "sensor.consumo_geral_channel_1_energy",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": 0.51
+          },
+          {
+            "stat_energy_from": "sensor.bomba_de_calor_energy",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": null
+          },
+          {
+            "stat_energy_from": "sensor.consumo_geral_channel_2_energy",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": null
+          },
+          {
+            "stat_energy_from": "sensor.shellyswitch25_485519024570_energy",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": null
+          },
+          {
+            "stat_energy_from": "sensor.shellyswitch25_485519033dcf_energy",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": null
+          },
+          {
+            "stat_energy_from": "sensor.shellyswitch25_4c75253369ce_energy",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": null
+          },
+          {
+            "stat_energy_from": "sensor.shellyswitch25_c8c9a367dea5_energy",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": null
+          }
+        ],
+        "flow_to": [],
+        "cost_adjustment_day": 0.0
+      }
+    ],
+    "device_consumption": []
+  }
+}

@@ -1,0 +1,952 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d6f66ea88b2de092dc9b2bf9e983de5e",
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name_by_user": null,
+        "name": "Home Assistant Core",
+        "sw_version": "2023.2.2",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "a130b409ef8baeaf3e2c16cc13a29c7d",
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name_by_user": null,
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2023.01.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "14060adc3858fcdc7860a90c4014f132",
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Operating System",
+        "name_by_user": null,
+        "name": "Home Assistant Operating System",
+        "sw_version": "9.5",
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala_de_estar",
+        "config_entries": [
+          "e98c9c69d72d13892f906b74dba231f7"
+        ],
+        "configuration_url": "http://192.168.1.94:1400/support/review",
+        "connections": [
+          [
+            "mac",
+            "54:2a:1b:56:1f:44"
+          ],
+          [
+            "upnp",
+            "uuid:RINCON_542A1B561F4401400"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9ffb055572384c46e1e945cd09e6b5d7",
+        "identifiers": [
+          [
+            "sonos",
+            "RINCON_542A1B561F4401400"
+          ]
+        ],
+        "manufacturer": "Sonos",
+        "model": "SYMFONISK Table lamp",
+        "name_by_user": null,
+        "name": "Sala de estar",
+        "sw_version": "14.20.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": "hall",
+        "config_entries": [
+          "56dbae50a59f358bc5ee4613fd7348f4"
+        ],
+        "configuration_url": "http://192.168.1.66",
+        "connections": [
+          [
+            "mac",
+            "34:94:54:70:f5:61"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHEM)",
+        "id": "12ca362afb2dd2184494f68d7bae3aa8",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly EM",
+        "name_by_user": null,
+        "name": "Consumo geral",
+        "sw_version": "20221027-105518/v1.12.1-ga9117d3",
+        "via_device_id": null
+      },
+      {
+        "area_id": "escritorio",
+        "config_entries": [
+          "ce834baebb7d362b8a300aae5ba9c3b0"
+        ],
+        "configuration_url": "http://192.168.1.92",
+        "connections": [
+          [
+            "mac",
+            "4c:75:25:33:69:ce"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-25)",
+        "id": "f07400e7179e1144917fe03377aad4b8",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name_by_user": "Shelly25-escritorio",
+        "name": "shellyswitch25-4C75253369CE",
+        "sw_version": "20221027-092056/v1.12.1-ga9117d3",
+        "via_device_id": null
+      },
+      {
+        "area_id": "suite",
+        "config_entries": [
+          "f8e77504eb7b7f7cd930a9e9ecea9468"
+        ],
+        "configuration_url": "http://192.168.1.67",
+        "connections": [
+          [
+            "mac",
+            "48:55:19:02:45:70"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-25)",
+        "id": "df0bef24c55f21b325e81aaad34fa400",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name_by_user": "Shelly25-suite",
+        "name": "shellyswitch25-485519024570",
+        "sw_version": "20221027-092056/v1.12.1-ga9117d3",
+        "via_device_id": null
+      },
+      {
+        "area_id": "lavandaria",
+        "config_entries": [
+          "d4b9e8da0057f4a2eb93d9970d90f404"
+        ],
+        "configuration_url": "http://192.168.1.86",
+        "connections": [
+          [
+            "mac",
+            "7c:87:ce:88:1e:76"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHPLG-S)",
+        "id": "1da267eefa3d2ce107b2f2e23c944252",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plug S",
+        "name_by_user": null,
+        "name": "Bomba de calor",
+        "sw_version": "20230109-114426/v1.12.2-g32055ee",
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala_de_estar",
+        "config_entries": [
+          "86ecb418c1f3ae59ee7b7ba5d373aac8"
+        ],
+        "configuration_url": "http://192.168.1.65",
+        "connections": [
+          [
+            "mac",
+            "48:55:19:03:3d:cf"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-25)",
+        "id": "cea5cc44bde61257f6cee5bcee47f19a",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name_by_user": "Shelly25-sala",
+        "name": "shellyswitch25-485519033DCF",
+        "sw_version": "20221027-092056/v1.12.1-ga9117d3",
+        "via_device_id": null
+      },
+      {
+        "area_id": "quarto_tomas",
+        "config_entries": [
+          "2ee3c12e838068f9efca351d72037794"
+        ],
+        "configuration_url": "http://192.168.1.101",
+        "connections": [
+          [
+            "mac",
+            "c8:c9:a3:67:de:a5"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-25)",
+        "id": "5e65f9f48870f854e5e32b11e7f17f55",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name_by_user": "Shelly25-quarto-tomas",
+        "name": "shellyswitch25-C8C9A367DEA5",
+        "sw_version": "20221027-092056/v1.12.1-ga9117d3",
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala_de_estar",
+        "config_entries": [
+          "59092a5444c62b8447fd3a5c082a3de5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f44c38640e66d9a4211da9df3adffad1",
+        "identifiers": [
+          [
+            "cast",
+            "752a1510308930bdd868584a55d3d1c7"
+          ]
+        ],
+        "manufacturer": "Sagemcom",
+        "model": "MEO TV Box 4K (DIW3930)",
+        "name_by_user": null,
+        "name": "MEO TV Box 4K (DIW3930)",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala_de_estar",
+        "config_entries": [
+          "ed96354796e22709005251a23a8182d3"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d8:a3:5c:cc:1f:3d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "cf079f6a59ff191e1bd33ce01e24b2cf",
+        "identifiers": [
+          [
+            "samsungtv",
+            "5dc6faa3-1996-4389-aabe-57d4a3bb6652"
+          ]
+        ],
+        "manufacturer": "Samsung",
+        "model": "QE55Q80AATXXC",
+        "name_by_user": null,
+        "name": "Samsung Q80AA 55 TV",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "hall",
+        "config_entries": [
+          "590f258c25bac6237f3c2ed7dfc10186"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:4ee36ab6-d14f-4f22-ab3a-4df14a86489d"
+          ],
+          [
+            "mac",
+            "58:fc:20:8b:1f:1f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "4c6f7fb87d1e3f3f7e5def664117cc99",
+        "identifiers": [
+          [
+            "upnp",
+            "uuid:a6e07014-c0c0-474e-b973-fa71fc140c4e::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ],
+          [
+            "upnp_host",
+            "192.168.1.254"
+          ],
+          [
+            "upnp_serial_number",
+            "5054494E208B1F1F"
+          ]
+        ],
+        "manufacturer": "PTIN",
+        "model": "GR241AG",
+        "name_by_user": null,
+        "name": "FiberGateway GR241AG",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala_de_estar",
+        "config_entries": [
+          "ab8cee12261f3f302ed22b42539ac386"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:8739aefe-6500-4c2a-87ba-46c9154a6e7f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0c80d2def17efcb4968f7199e6a63af1",
+        "identifiers": [
+          [
+            "dlna_dmr",
+            "uuid:8739aefe-6500-4c2a-87ba-46c9154a6e7f"
+          ]
+        ],
+        "manufacturer": "Samsung Electronics",
+        "model": "QE55Q80AATXXC",
+        "name_by_user": null,
+        "name": "Samsung Q80AA 55 TV",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "escritorio",
+        "config_entries": [
+          "c65e50ca294accee5e83a0916b1d80a3"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "14:eb:b6:1e:f9:ee"
+          ],
+          [
+            "upnp",
+            "uuid:upnp-InternetGatewayDevice-BD421FB75047"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5a17104b4e4e20c4dda05429fb839bf1",
+        "identifiers": [
+          [
+            "upnp_host",
+            "192.168.1.73"
+          ],
+          [
+            "upnp_serial_number",
+            "1.0"
+          ],
+          [
+            "upnp",
+            "uuid:upnp-InternetGatewayDevice-BD421FB75047::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "Archer C80",
+        "name_by_user": null,
+        "name": "Archer C80 AC1900 MU-MIMO Wi-Fi Router",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "334300821e16ec1d28f92b3df258e30c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "eb9d40d6a1656aab515361ddf63ba29f",
+        "identifiers": [
+          [
+            "mobile_app",
+            "0B943651-5A82-4E96-AAD0-196D61701A38"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone8,4",
+        "name_by_user": null,
+        "name": "iPhone André",
+        "sw_version": "14.7.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_ssh",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "16b7bc44e695a8a099ae60f070432e68",
+        "identifiers": [
+          [
+            "hassio",
+            "core_ssh"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Terminal & SSH",
+        "sw_version": "9.6.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e0e307e9de746efb0f68863395cae1de"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "2e18dc0d59959954e63174d1b7482c3f",
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name_by_user": null,
+        "name": "HACS",
+        "sw_version": "1.30.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": "geral",
+        "config_entries": [
+          "0e9964b84573057dc7cf4a43064d3d65"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7ca707edf4ee08f5ddffcb199a99d75d",
+        "identifiers": [
+          [
+            "bmw_connected_drive",
+            "WBA7M710807J87017"
+          ]
+        ],
+        "manufacturer": "BMW",
+        "model": "116d",
+        "name_by_user": null,
+        "name": "116d",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "quarto_tomas",
+        "config_entries": [
+          "f5d5353f405f74c7e4b0d911c610956e"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "567f7b224cf2f38e99a62199282dd28d",
+        "identifiers": [
+          [
+            "smartthinq_sensors",
+            "b487b01b-d1b9-1647-aa2a-24e853c741a2"
+          ]
+        ],
+        "manufacturer": "LG",
+        "model": "RAC_056905_WW-RAC (AC)",
+        "name_by_user": null,
+        "name": "Ar Condicionado quarto",
+        "sw_version": "clip_hna_v1.9.188",
+        "via_device_id": null
+      },
+      {
+        "area_id": "suite",
+        "config_entries": [
+          "f5d5353f405f74c7e4b0d911c610956e"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a2f093833d35f954b11d53f5bd1927e1",
+        "identifiers": [
+          [
+            "smartthinq_sensors",
+            "6ac69130-8b81-18ab-94db-24e853162ca6"
+          ]
+        ],
+        "manufacturer": "LG",
+        "model": "RAC_056905_WW-RAC (AC)",
+        "name_by_user": null,
+        "name": "Ar Condicionado suite",
+        "sw_version": "clip_hna_v1.9.188",
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala_de_estar",
+        "config_entries": [
+          "f5d5353f405f74c7e4b0d911c610956e"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "529aa7ef0ee83fd1677d85b089bb8801",
+        "identifiers": [
+          [
+            "smartthinq_sensors",
+            "07fee18e-b5ce-15db-ba67-4cbce98c40c0"
+          ]
+        ],
+        "manufacturer": "LG",
+        "model": "RAC_056905_WW-RAC (AC)",
+        "name_by_user": null,
+        "name": "Ar Condicionado Sala",
+        "sw_version": "clip_hna_v1.9.188",
+        "via_device_id": null
+      },
+      {
+        "area_id": "escritorio",
+        "config_entries": [
+          "f5d5353f405f74c7e4b0d911c610956e"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2fe29d406e43502af2c63072f6278dd0",
+        "identifiers": [
+          [
+            "smartthinq_sensors",
+            "4b8f061c-9b4c-167a-a8c8-24e853c738f8"
+          ]
+        ],
+        "manufacturer": "LG",
+        "model": "RAC_056905_WW-RAC (AC)",
+        "name_by_user": null,
+        "name": "Ar Condicionado escritório",
+        "sw_version": "clip_hna_v1.9.188",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_duckdns",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "45a6f46e9d75a1ecc83f7a1447ed7556",
+        "identifiers": [
+          [
+            "hassio",
+            "core_duckdns"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Duck DNS",
+        "sw_version": "1.15.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "geral",
+        "config_entries": [
+          "bfdc8e734d424a61f4651db00a464270"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "60:7e:a4:ac:ec:ce"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "48d3936a59e9d96a9821156068afe04d",
+        "identifiers": [
+          [
+            "xiaomi_miio",
+            "60:7e:a4:ac:ec:ce"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "chuangmi.plug.v1",
+        "name_by_user": null,
+        "name": "Mi 360° Home Security Camera 2K",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "geral",
+        "config_entries": [
+          "d22b2c72c6ab68f28c4be43d86a81b44"
+        ],
+        "configuration_url": "http://accuweather.com/en/_/_/861608/weather-forecast/861608/",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "298a3a473ca303e5ddf3694913e8db5e",
+        "identifiers": [
+          [
+            "accuweather",
+            "861608"
+          ]
+        ],
+        "manufacturer": "AccuWeather, Inc.",
+        "model": null,
+        "name_by_user": null,
+        "name": "Home",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "geral",
+        "config_entries": [
+          "b0bf7c8ce11f0a23c9c97468eb2d6fc3"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "eb:e6:2c:28:3f:c8"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f3de5c60af647428e9596d42796cedc5",
+        "identifiers": [
+          [
+            "xiaomi_miio",
+            "eb:e6:2c:28:3f:c8"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "chuangmi.plug.v1",
+        "name_by_user": null,
+        "name": "Electric Scooter",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "geral",
+        "config_entries": [
+          "a6992218cd214c21b06b0c95b32cc988"
+        ],
+        "configuration_url": "https://icloud.com/",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "726171fbb7747dc106d065c67afcac44",
+        "identifiers": [
+          [
+            "icloud",
+            "LchBDin/pFoUcc6yfWm+ytU824ZiXJxrAkh2Beg/DfL0RiDbr/u0FOHYVNSUzmWV"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone SE",
+        "name_by_user": null,
+        "name": "iPhone André",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "geral",
+        "config_entries": [
+          "e5b98142579fd3010652e35961547522"
+        ],
+        "configuration_url": "https://forecast.solar",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "ba1e8ec3efb004e1c257d0a405a0dbd8",
+        "identifiers": [
+          [
+            "forecast_solar",
+            "e5b98142579fd3010652e35961547522"
+          ]
+        ],
+        "manufacturer": "Forecast.Solar",
+        "model": "public",
+        "name_by_user": null,
+        "name": "Solar production forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "geral",
+        "config_entries": [
+          "22b6e9c5057655c215e0fe48d6837888"
+        ],
+        "configuration_url": "https://www.electricitymap.org/",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d8ed532d7018c78eac43a31527826ed0",
+        "identifiers": [
+          [
+            "co2signal",
+            "22b6e9c5057655c215e0fe48d6837888"
+          ]
+        ],
+        "manufacturer": "Tmrow.com",
+        "model": null,
+        "name_by_user": null,
+        "name": "CO2 signal",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "f03e32bbe7405c2c58b04f0ed6bc8998",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_vscode"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Studio Code Server",
+        "sw_version": "5.5.2",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ea0666f380f051ae94219f6ff26e67ed"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "bef0dfad3d8f8c5aed96501eac7b5593",
+        "identifiers": [
+          [
+            "mobile_app",
+            "BC465167-2EE2-4921-9E29-3748744CC1B3"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone12,1",
+        "name_by_user": null,
+        "name": "iPhone de Filipa Castro",
+        "sw_version": "16.2",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_influxdb",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e17f041a8a393d1a6d1ebc4204f1dfa1",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_influxdb"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "InfluxDB",
+        "sw_version": "4.5.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_grafana",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "65419d8b30da256c39576dffa4e066ee",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_grafana"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Grafana",
+        "sw_version": "8.1.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "cozinha",
+        "config_entries": [
+          "fcf8e715cd8d8ca7f53801769a5b3d41"
+        ],
+        "configuration_url": "http://192.168.1.111",
+        "connections": [
+          [
+            "mac",
+            "34:94:54:7a:54:cb"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-25)",
+        "id": "0a5dd23cf4e3f15940668603a9ee8885",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name_by_user": "shelly25-cozinha",
+        "name": "shellyswitch25-3494547A54CB",
+        "sw_version": "20221027-092056/v1.12.1-ga9117d3",
+        "via_device_id": null
+      },
+      {
+        "area_id": "geral",
+        "config_entries": [
+          "299b88c50ba37fc21d63c3b8038a1afa"
+        ],
+        "configuration_url": "https://www.speedtest.net/",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "fef65555cd7d39661aa250fd313d31ea",
+        "identifiers": [
+          [
+            "speedtestdotnet",
+            "299b88c50ba37fc21d63c3b8038a1afa"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "SpeedTest",
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "6a5c43fa4f700ce6d2e5673bf72f0827"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "id": "1a54fe84d2871f1966717460eea2ba2d",
+        "orphaned_timestamp": null
+      }
+    ]
+  }
+}
